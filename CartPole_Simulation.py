@@ -145,7 +145,7 @@ class CartPoleEnv:
         """Reset the environment state."""
         x = 0
         x_dot = 0
-        theta = 5
+        theta = 160
         theta_dot = 0
 
         self.state = (x,x_dot,-math.radians(theta),theta_dot)#np.random.uniform(low=-0.05, high=0.05, size=(4,))
