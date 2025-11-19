@@ -42,10 +42,10 @@ The system successfully stabilizes the pendulum from various initial conditions:
 **Single trajectory with swing-up and stabilization:**
 ![Swing-up and Stabilization](imgs/LQR_Energy_Swingup_plot.png)
 
-**Multiple initial conditions converging to equilibrium:**
+**Multiple initial starting angles converging to equilibrium:**
 ![Multiple Initial Conditions](imgs/Several_initial_conditions.png)
 
-**Different LQR tuning parameters:**
+**Different starting positions using only LQR controller:**
 <table>
 <tr>
 <td><img src="imgs/LQR_0x_10theta.png" width="400"/></td>
@@ -59,13 +59,13 @@ The system successfully stabilizes the pendulum from various initial conditions:
 - Python 3.7+
 - Required packages:
   ```bash
-  pip install pygame matplotlib numpy scipy python-control
+  pip install pygame matplotlib numpy scipy control
   ```
 
 ### Setup
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Inverted_Pendulum.git
+git clone https://github.com/Podolskigutten/Inverted_Pendulum.git
 cd Inverted_Pendulum
 ```
 
