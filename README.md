@@ -2,7 +2,7 @@
 
 A Python implementation of a hybrid control system for the inverted pendulum on a cart problem. This project combines energy-based control for swing-up maneuvers with Linear Quadratic Regulator (LQR) control for stabilization at the upright position.
 
-![Cart-Pole Simulation](imgs/LQR_CartPole-ezgif.com-optimize.gif)
+![Cart-Pole Simulation](imgs/LQR_CartPole.gif)
 
 ## Overview
 
@@ -128,5 +128,6 @@ Inverted_Pendulum/
 - [Python Control Systems Library Documentation](https://python-control.readthedocs.io/)
 
 ## License
+
 
 This project is open source and available under the MIT License.
